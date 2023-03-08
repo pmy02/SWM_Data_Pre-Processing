@@ -34,9 +34,9 @@ def get_document(fileDir): # 파일 읽기
                                 results.append(w)
                         results = " ".join(results)
                         
-                        with open("/Users/minyoung/Desktop/Curiosity_Data/Normal_Data/second_data/Normal_Raw_Data/" + str(num) + ".txt", 'w', encoding = 'utf-8') as file:
+                        with open("your address" + str(num) + ".txt", 'w', encoding = 'utf-8') as file:
                             file.write(doc)
                             num += 1
 
 
-data = get_document("/Users/minyoung/Desktop/Git_Projects/transcript_data/Validation/")
+data = get_document("your address")
