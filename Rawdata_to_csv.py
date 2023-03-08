@@ -10,7 +10,7 @@ w = csv.writer(f)
 
 w.writerow(title)
 
-root = "/Users/minyoung/Desktop/temp_data/"
+root = "your address"
 list = os.listdir(root)
 
 for cat in list:
